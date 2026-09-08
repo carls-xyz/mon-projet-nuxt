@@ -1,75 +1,25 @@
-# Nuxt Minimal Starter
+# mon-projet-nuxt
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Exercice de cours (IIM, octobre 2025) : prise en main de **Nuxt 4** et de **Tailwind CSS**.
 
-## Setup
+Le projet sert de terrain d'essai pour la structure d'une application Nuxt, le routage par fichiers et l'intégration de Tailwind via le module officiel.
 
-Make sure to install dependencies:
+## Stack
+
+- Nuxt 4 et Vue 3
+- TypeScript
+- Tailwind CSS, via `@nuxtjs/tailwindcss`
+
+## Lancer
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
+Le serveur démarre sur http://localhost:3000
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+npm run build     # build de production
+npm run preview   # prévisualiser le build
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
